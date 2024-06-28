@@ -1,12 +1,14 @@
 // import { useState } from "react";
 import AddNote from "./components/AddNote";
+import Navbar from "./components/Navbar";
 
 
 function App() {
 
   return (
     <>
-      <AddNote></AddNote>
+      <Navbar/>
+      <AddNote/>
     </>
   )
 }

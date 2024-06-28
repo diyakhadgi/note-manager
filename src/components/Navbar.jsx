@@ -1,7 +1,9 @@
-import React from 'react'
+import '../styles/Navbar.css'
 
 export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <div className='navbar'>
+      <h3>Note Manager</h3>
+    </div>
   )
 }
